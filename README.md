@@ -50,22 +50,24 @@ OfflineMusicDownloader/
 ```
 
 📝 Exemplo de uso
+```bash
 Bem-vindo ao Offline Music Downloader!
 Digite o nome da música: Shape of You
 Música encontrada: Shape of You
 Artista: Ed Sheeran
 Deseja baixar essa música? (sim/nao):
-
+```
 
 🤝 Como contribuir
-
+```bash
 Pull requests são bem-vindos!
 Para melhorias ou sugestões, abra uma issue no GitHub.
+```
 
 ⚖️ Licença
-
+```bash
 Este projeto está licenciado sob a MIT License.
 Você é livre para usar, modificar e distribuir, desde que mantenha este aviso de copyright.
-
+```
 
 ---
