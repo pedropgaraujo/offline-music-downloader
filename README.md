@@ -1,43 +1,44 @@
 # 🎶 Offline Music Downloader
 
-Um programa em **Java** que permite baixar músicas do YouTube diretamente para o computador em **MP3**, para ouvir offline — ideal para carros sem conexão à internet.
+I created this program in **Java** to solve a problem my parents were facing. Due to their generation, they are not very familiar with technology, which made it difficult to explain anything slightly complex, like downloading music online. I taught my mom how to download songs using a website that converts YouTube videos to MP3, but even then, there were too many steps to follow. That’s when I decided to create this project to make everything easier for them: they can simply open the app, type the name of a song or artist, see the link provided, and choose to download it or search for another song.
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- 🔍 Busca música pelo título e artista  
-- 📊 Mostra informações como duração e canal do YouTube  
-- ✅ Permite confirmação antes do download  
-- 🎧 Converte automaticamente para MP3 usando **FFmpeg**  
-- 💾 Salva músicas na pasta `downloads/`  
-- 👩‍💻 Interface amigável para usuários leigos
+- 🔍 Search for music by title and artist  
+- 📊 Shows information such as duration and YouTube channel  
+- ✅ Allows confirmation before downloading  
+- 🎧 Automatically converts to MP3 using **FFmpeg**  
+- 💾 Saves downloaded songs in the `downloads/` folder  
+- 👩‍💻 User-friendly interface for non-technical users
 
 ---
 
-## 🛠 Tecnologias utilizadas
+## 🛠 Technologies Used
 
 - Java 17  
 - yt-dlp (CLI)  
 - FFmpeg  
-- Node.js (para processamento JavaScript do YouTube)  
+- Node.js (for YouTube JavaScript processing)  
 
 ---
 
-## 📥 Como usar
+## 📥 How to Use
 
-1. Clone o repositório:
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repo.git
+git clone https://github.com/your-username/repo-name.git
 ```
-2. Abra o projeto no IntelliJ (ou compile com javac)
 
-3. Execute o programa:
+2. Open the project in IntelliJ (or compile with javac)
+
+3. Run the program:
  java -jar offline-music-downloader.jar
-Ou use o .exe gerado pelo Launch4j (mais fácil para usuários finais)
+Or use the .exe generated with Launch4j (easier for end users)
 
-📂 Estrutura de pastas
+📂 Project Structure
 ```bash
 OfflineMusicDownloader/
 ├── app.jar
@@ -49,25 +50,25 @@ OfflineMusicDownloader/
 └── downloads/
 ```
 
-📝 Exemplo de uso
+📝 Example Usage
 ```bash
-Bem-vindo ao Offline Music Downloader!
-Digite o nome da música: Shape of You
-Música encontrada: Shape of You
-Artista: Ed Sheeran
-Deseja baixar essa música? (sim/nao):
+Welcome to Offline Music Downloader!
+Enter the name of the song: Shape of You
+Song found: Shape of You
+Artist: Ed Sheeran
+Do you want to download this song? (yes/no):
 ```
 
-🤝 Como contribuir
+🤝 How to Contribute
 ```bash
-Pull requests são bem-vindos!
-Para melhorias ou sugestões, abra uma issue no GitHub.
+Pull requests are welcome!
+For improvements or suggestions, open an issue on GitHub.
 ```
 
 ⚖️ Licença
 ```bash
-Este projeto está licenciado sob a MIT License.
-Você é livre para usar, modificar e distribuir, desde que mantenha este aviso de copyright.
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute it, as long as you keep this copyright notice.
 ```
 
 ---
