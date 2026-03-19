@@ -38,16 +38,16 @@ git clone https://github.com/seu-usuario/nome-do-repo.git
 Ou use o .exe gerado pelo Launch4j (mais fácil para usuários finais)
 
 📂 Estrutura de pastas
-  OfflineMusicDownloader/
-  ├── app.jar
-  ├── bin/
-  │   ├── yt-dlp.exe
-  │   ├── ffmpeg.exe
-  │   ├── ffprobe.exe
-  │   └── node/
-  └── downloads/
+OfflineMusicDownloader/
+├── app.jar
+├── bin/
+│   ├── yt-dlp.exe
+│   ├── ffmpeg.exe
+│   ├── ffprobe.exe
+│   └── node/
+└── downloads/
 
-  
+
 📝 Exemplo de uso
 Bem-vindo ao Offline Music Downloader!
 Digite o nome da música: Shape of You
