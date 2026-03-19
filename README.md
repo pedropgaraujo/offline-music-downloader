@@ -38,6 +38,7 @@ git clone https://github.com/seu-usuario/nome-do-repo.git
 Ou use o .exe gerado pelo Launch4j (mais fácil para usuários finais)
 
 📂 Estrutura de pastas
+```bash
 OfflineMusicDownloader/
 ├── app.jar
 ├── bin/
@@ -46,7 +47,7 @@ OfflineMusicDownloader/
 │   ├── ffprobe.exe
 │   └── node/
 └── downloads/
-
+```
 
 📝 Exemplo de uso
 Bem-vindo ao Offline Music Downloader!
