@@ -14,9 +14,11 @@ public class AppRunner {
 
         showWelcome();
 
+        String query = "0";
+
         while (true) {
 
-            String query = askMusic();
+            query = askMusic();
 
             if (isExit(query)) break;
 
@@ -29,10 +31,9 @@ public class AppRunner {
                 controller.download(url);
 
                 System.out.println("✅ Download concluído!");
-                break;
             }
 
-            if (askExit()) break;
+            if (isExit(query)) break;
         }
 
         System.out.println("\n👋 Até mais!");
